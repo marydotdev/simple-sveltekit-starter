@@ -1,20 +1,12 @@
-# create-svelte
+# Simple SvelteKit Starter
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+Welcome to the Simple SvelteKit Starter! This is meant to serve as a base for your own portfolio or blog! Feel free to use it as is or make as many changes as you want. If you notice any errors or would like to contribute in anyway please feel free to submit a PR!
 
-## Creating a project
+[Live Demo](https://simple-sveltekit-starter.vercel.app/)
 
-If you're seeing this, you've probably already done this step. Congrats!
+# Getting Started
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
+The easiest way to get up and running is to clone this repository!
 
 ## Developing
 
@@ -29,10 +21,4 @@ npm run dev -- --open
 
 ## Building
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+This template is already set up with the vercel adapter. You can change the adapter in the svelte.config.js file. Check out the [adapter](https://kit.svelte.dev/docs#adapters) docs for more info.
