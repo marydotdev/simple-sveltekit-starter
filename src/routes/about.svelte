@@ -14,13 +14,13 @@
     <div class="px-8 md:px-2 text-center">
         <h1 class="text-2xl font-bold md:text-4xl pt-4">Hey, I'm Jane!</h1>
             <div class="flex justify-center gap-6 py-4">
-                <a href="https://twitter.com" class="hover:text-blue-400">
+                <a href="https://twitter.com" target="_blank" class="hover:text-blue-400">
                     <Twitter />
                 </a>
-                <a href="https://github.com" class="hover:text-gray-500">
+                <a href="https://github.com" target="_blank" class="hover:text-gray-500">
                     <Github />
                 </a>
-                <a href="https://dribbble.com" class="hover:text-pink-400">
+                <a href="https://dribbble.com" target="_blank" class="hover:text-pink-400">
                     <Dribbble />
                 </a>
             </div>

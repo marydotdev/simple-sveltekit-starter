@@ -15,8 +15,8 @@
 
 <footer class="bottom-0">
     <div class="text-lg text-center font-medium mx-auto my-8">
-        <p>Built with the <a href="/" class="hover:text-blue-400">Simple SvelteKit Starter</a>.</p>
-        <p>Made by <a href="https://twitter.com/marydotdev" class="hover:text-blue-400">mary.dev</a> 👩‍💻</p>
+        <p>Built with the <a href="https://github.com/marydotdev/simple-sveltekit-starter" target="_blank" class="hover:text-blue-400">Simple SvelteKit Starter</a>.</p>
+        <p>Made by <a href="https://twitter.com/marydotdev" target="_blank" class="hover:text-blue-400">mary.dev</a> 👩‍💻</p>
     </div>
 </footer>
 </div>
