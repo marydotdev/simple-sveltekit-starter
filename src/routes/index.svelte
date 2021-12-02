@@ -53,7 +53,6 @@
         <div class="max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
             {#each posts as { slug, title, author, description, date, image, alt }}
             <div class="relative">
-                <div class="absolute inset-1 bg-blue-400 rounded-lg blur-md"></div>
                 <div class="relative">
                 <Card>
                     <div class="flex-shrink-0">
@@ -70,33 +69,6 @@
             {/each}
         </div>
     <a href="/blog" class="block text-right text-xl font-medium py-12 hover:text-blue-400">View More &rarr;</a>
-    </div>
-
-    <!--Displays Featured Pens from codepen, embed your own!-->
-    <div>
-        <h2 class="text-4xl font-medium pb-12 text-center">Featured Work</h2>
-        <div class="max-w-xl mx-auto grid gap-8 pb-8">
-            <p class="codepen" data-height="350" data-theme-id="dark" data-slug-hash="oyoNdR" data-editable="true" data-user="jonny" style="height: 350px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                <span>See the Pen <a href="https://codepen.io/jonny/pen/oyoNdR">
-                Humpback Header</a> by Jonny McLaughlin (<a href="https://codepen.io/jonny">@jonny</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-              </p>
-              <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-
-            <p class="codepen" data-height="500" data-theme-id="dark" data-slug-hash="NWdNMBJ" data-editable="true" data-user="jh3y" style="height: 500px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                <span>See the Pen <a href="https://codepen.io/jh3y/pen/NWdNMBJ">
-                3D CSS Plane 😎 (Tap to Toggle + Mouse Move Parallax)</a> by Jhey (<a href="https://codepen.io/jh3y">@jh3y</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-            </p>
-                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        
-            <p class="codepen" data-height="300" data-theme-id="dark" data-slug-hash="BaaQamG" data-editable="true" data-user="ste-vg" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-                <span>See the Pen <a href="https://codepen.io/ste-vg/pen/BaaQamG">
-                Race Car Island</a> by Steve Gardner (<a href="https://codepen.io/ste-vg">@ste-vg</a>)
-                on <a href="https://codepen.io">CodePen</a>.</span>
-            </p>
-                <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-        </div>
     </div>
 </div>
 
